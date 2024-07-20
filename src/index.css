@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* Ensure horizontal scrolling is enabled for all scrollable elements */
+
+/* Hide the scrollbar in WebKit browsers */
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide the scrollbar in Internet Explorer 10+ */
+* {
+    -ms-overflow-style: none; /* IE 10+ */
+    scrollbar-width: none;    /* Firefox */
+}
+
+
+
