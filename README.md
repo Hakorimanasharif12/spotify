@@ -32,7 +32,7 @@ Currently, two official plugins are available:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/NiyomugaboFidel/MC-player
+   git clone https://github.com/Hakorimanasharif12/MC-player
    cd game-explorer
 2. Install the dependencies:
 
