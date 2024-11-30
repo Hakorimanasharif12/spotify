@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useState } from 'react'
 import Navbar from './Navbar'
 import { useParams } from 'react-router-dom'
 import { albumsData, assets, songsData} from '../assets/assets';
@@ -26,6 +26,12 @@ const DisplayAlbum = () => {
         </p>
        </div>
     </div>
+    <input 
+        type="text" 
+        placeholder="Search songs..." 
+        className="mb-4 p-2 border rounded"
+        onChange={(e) => setSearchQuery(e.target.value)}
+    />
     <div className='grid grid-cols-3 sm:grid-cols-4 mt-10 pl-2 text-[#a7a7a7]'>
         <p><b className='mr-4'>#</b>Title</p>
         <p>Album</p>
